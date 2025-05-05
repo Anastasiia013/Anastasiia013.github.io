@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projectBox {
+    text-align: start;
+}
+
+section {
+    padding: 30px 10%;
+}
+
+h2 {
+    color: #333;
+}
+
+.projectTitle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+h4 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 600px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.project-link {
+    font-size: 20px;
+    color: rgb(242, 41, 242);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.project-link:hover {
+    color: rgb(85, 85, 217);
+}
